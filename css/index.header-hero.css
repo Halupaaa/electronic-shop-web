@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.header-hero__title{
+    color: var(--title-color);
+    text-decoration: underline;
+    font-family: "Bebas Neue", serif;
+}
