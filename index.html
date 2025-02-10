@@ -8,16 +8,26 @@
     <link rel="shortcut icon" 
     href="/img/global/logoForApple.png" type="image/x-icon">
     <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-<header> 
-    <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header-nav.partial.html"></nav>
+<header class="header"> 
+    <nav class="header-nav"
+    data-hx-trigger="load" 
+    data-hx-swap="outerHTML" 
+    data-hx-get="global.header-nav.partial.html"></nav>
+
+    <section class="header-hero"
+    data-hx-trigger="load" 
+    data-hx-swap="outerHTML" 
+    data-hx-get="index.header-hero.partial.html"></section>
 </header>
 
 <main> 
     <section> </section>
     <section> </section>
     <section> </section>
+
 </main>
 
 <footer> </footer>    
